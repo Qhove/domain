@@ -35,23 +35,32 @@
 
             <p>(Sub)Domain list owned and operated by <br>Zanix Qhove.</p>
 
-			<div class="ad-labels">
-             <span>↓⬇ Advertisement ⬇↓</span>
-             <span>↓⬇ Iklan ⬇↓</span>
-             <span>↓⬇ 广告 ⬇↓</span>
+            <div class="ad-labels">
+            <div class="label">⬇️ Iklan ⬇️</div>
+            <div class="label">⬇️ Advertisement ⬇️</div>
+            <div class="label">⬇️ 广告 ⬇️</div>
             </div>
 
             <style>
             .ad-labels {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            text-align: center;
-            font-size: 12px;
-            color: cyan;
-            margin: 5px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin: 20px 0;
+            flex-wrap: nowrap;
             }
-	        </style>
-			
+
+            .label {
+            flex: 1 1 0;
+            text-align: center;
+            font-size: clamp(14px, 2vw, 28px);
+            font-weight: bold;
+            color: cyan;
+            text-shadow: 0 0 6px #0ff, 0 0 12px #0ff;
+            white-space: nowrap;
+            }
+            </style>
 
 			<script type="text/javascript">
 	atOptions = {
