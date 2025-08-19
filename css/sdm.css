@@ -1,0 +1,50 @@
+<div id="domain-section" data-text="↓DOMAIN SECTION↓">↓DOMAIN SECTION↓</div>
+<div id="subdomain-section" data-text="↓SUBDOMAIN SECTION↓">↓SUBDOMAIN SECTION↓</div>
+
+<style>
+/* Shared glitch styles */
+#domain-section, #subdomain-section {
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  padding: 0.5em 0.5em;
+  display: inline-block;
+  margin: 1.5em 0 2em 0; /* space bawah */
+}
+
+#domain-section::before, #subdomain-section::before,
+#domain-section::after, #subdomain-section::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#domain-section::before, #subdomain-section::before {
+  color: #f0f;
+  animation: glitchTop 3s infinite ease-in-out alternate;
+}
+
+#domain-section::after, #subdomain-section::after {
+  color: #0ff;
+  animation: glitchBottom 3s infinite ease-in-out alternate;
+}
+
+@keyframes glitchTop {
+  0%, 100% { transform: translate(0); }
+  25% { transform: translate(-1px,-1px); }
+  50% { transform: translate(1px,0.5px); }
+  75% { transform: translate(-0.5px,1px); }
+}
+
+@keyframes glitchBottom {
+  0%, 100% { transform: translate(0); }
+  25% { transform: translate(0.5px,1px); }
+  50% { transform: translate(-1px,-0.5px); }
+  75% { transform: translate(1px,0.5px); }
+}
+</style>
