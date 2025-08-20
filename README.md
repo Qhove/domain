@@ -15,7 +15,7 @@
 
 ## 🌟 Favorite Project
 
-- [ZQ-Link](https://github.com/Qhove/ZQ-Link) — a handy Link Hub to organize and share your favorite links
+- [ZQ-Link](https://github.com/Qhove/ZQ-Link) — a handy Link Hub to organize and share my profile links
 
 ---
 
