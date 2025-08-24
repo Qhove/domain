@@ -1,14 +1,13 @@
     /* === Domain list === */
     const DOMAINS = [
-      {name:"9362006.xyz",  desc:"Primary brand portal"},
-      {name:"09032006.xyz", desc:"Archive & mirror"},
-      {name:"bug.my.id",    desc:"Bug-tracker playground"},
-      {name:"nox.my.id",    desc:"VPN gateway"},
-      {name:"quo.pp.ua",    desc:"Quote micro-service"},
-      {name:"dox.pp.ua",    desc:"Documentation hub"}
+      {name:"9362006.xyz",  desc:"The core of all my ambitious Projects"},
+      {name:"09032006.xyz", desc:"Not yet used and still in the experimental stage"},
+      {name:"bug.my.id",    desc:"Not yet used and still in the experimental stage"},
+      {name:"nox.my.id",    desc:"Not yet used and still in the experimental stage"},
+      {name:"quo.pp.ua",    desc:"Not yet used and still in the experimental stage"},
+      {name:"dox.pp.ua",    desc:"Not yet used and still in the experimental stage"}
     ];
 
-    /* === Render cards === */
     const grid = document.getElementById('domainGrid');
     const isAndroid = /android/i.test(navigator.userAgent);
 
