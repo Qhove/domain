@@ -1,0 +1,21 @@
+{
+  "name": "Zanix Qhove — Domain List",
+  "short_name": "Domains",
+  "description": "Official list of domains owned and operated by Zanix Qhove.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0969da",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
