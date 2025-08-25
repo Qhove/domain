@@ -1,5 +1,6 @@
     /* === Domain list === */
     const DOMAINS = [
+      {name:"zanix.my.id",    desc:"Very Special 💙"},
       {name:"9362006.xyz",  desc:"The core of all my ambitious Projects"},
       {name:"09032006.xyz", desc:"Not yet used and still in the experimental stage"},
       {name:"bug.my.id",    desc:"Not yet used and still in the experimental stage"},
