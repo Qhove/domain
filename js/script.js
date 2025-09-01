@@ -5,6 +5,7 @@
       {name:"09032006.xyz", desc:"Not yet used and still in the experimental stage"},
       {name:"bug.my.id",    desc:"Not yet used and still in the experimental stage"},
       {name:"nox.my.id",    desc:"Not yet used and still in the experimental stage"},
+      {name:"zanix.pp.ua",    desc:"Not yet used and still in the experimental stage"},
       {name:"quo.pp.ua",    desc:"Not yet used and still in the experimental stage"},
       {name:"dox.pp.ua",    desc:"Not yet used and still in the experimental stage"}
     ];
